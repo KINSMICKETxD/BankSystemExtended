@@ -113,5 +113,14 @@
     <ClInclude Include="clsTransferLog.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="clsCurrency.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsCurrencyMainScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsCurreniesListScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

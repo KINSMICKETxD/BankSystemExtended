@@ -225,6 +225,12 @@ public:
 			_value[i] = toupper(_value[i]);
 		}
 	}
+	static string upperAllString(string myString) {
+		for (int i = 0; i < myString.length(); i++) {
+			myString[i] = toupper(myString[i]);
+		}
+		return myString;
+	}
 };
 
 
