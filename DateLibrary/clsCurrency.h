@@ -150,7 +150,20 @@ public:
 		return _loadCurrencyDataFromFile();
 	}
 
+	float ConvertToUSD(float amount) {
 
+		return (amount /_Rate);
+	}
+
+	float ConvertToOtherCurrency(float amount, clsCurrency currency2) {
+		float amountInDollar = ConvertToUSD(amount);
+		if (currency2.getCurrencyCode() == "USD") {
+			return amountInDollar;
+		}
+		else {
+			return (float)(amountInDollar * currency2.getCurrencyRate());
+		}
+	}
 
 
 };

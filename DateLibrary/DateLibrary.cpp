@@ -7,16 +7,17 @@
 #include "clsCurrency.h"
 #include "clsCurrencyMainScreen.h"
 #include "clsCurreniesListScreen.h"
+#include "clsFindCurrencyScreen.h"
 using namespace std;
 int main()
 
 {
-     /*bool result = true;
+     bool result = true;
      while (result) {
 
         result =  clsLoginScreen::ShowLoginScreen();
      }
      return 0;
-     */
-    clsCurreniesListScreen::showCurrencyList();
+     
+    
 }

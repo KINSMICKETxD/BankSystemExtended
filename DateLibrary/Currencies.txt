@@ -200,7 +200,7 @@ Togo#//#XOF#//#CFA Franc#//#615.401978
 Tokelau Islands#//#NZD#//#New Zealand Dollar#//#1.535000
 Tonga#//#TOP#//#Tonga Pa'anga#//#2.353000
 Trinidad and Tobago#//#TTD#//#Trinidad and Tobago Dollar#//#6.746000
-Tunisia#//#TND#//#Tunisian Dinar#//#3.140000
+Tunisia#//#TND#//#Tunisian Dinar#//#3.400000
 Turkey#//#TRY#//#Turkish Lira#//#18.632999
 Turkmenistan#//#TMT#//#Turkmenistan Manat#//#3.500000
 Turks and Caicos Island#//#USD#//#US Dollar#//#1.000000

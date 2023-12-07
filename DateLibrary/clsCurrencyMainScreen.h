@@ -6,6 +6,9 @@
 #include "clsInputValidate.h"
 #include "clsScreen.h"
 #include "clsCurreniesListScreen.h"
+#include "clsFindCurrencyScreen.h"
+#include "clsUpdateCurrencyScreen.h"
+#include "clsCurrencyCalculatorScreen.h"
 using namespace std;
 class clsCurrencyMainScreen : protected clsScreen  
 {
@@ -23,6 +26,7 @@ private:
 	static void _goBacktoCurrencyMainMenueScreen() {
 		cout << "\n\nPress any key to go back to Manage Users Menue...";
 		system("pause>0");
+		showCurrencyMainMenueScreen();
 	}
 
 	static void _showListCurrenciesScreen() {
@@ -31,15 +35,18 @@ private:
 	}
 
 	static void _showFindCurrencyScreen() {
-		cout << "showFindCurrencyScreen code will be here...";
+		//cout << "showFindCurrencyScreen code will be here...";
+		clsFindCurrencyScreen::showFindCurrencyScreen();
 	}
 
 	static void _showUpdateRateScreen() {
-		cout << "showUpdateRateScreen code will be here...";
+		//cout << "showUpdateRateScreen code will be here...";
+		clsUpdateCurrencyScreen::showUpdateCurrencyScreen();
 	}
 
 	static void _showCurrencyCalculator() {
-		cout << "showCurrencyCalculator code will be here...";
+		//cout << "showCurrencyCalculator code will be here...";
+		clsCurrencyCalculatorScreen::showCurrencyCalculatorScreen();
 	}
 
 	static void _performeCurrencyMainMenueScreenOption(enCurrencyMenueOption option) {
