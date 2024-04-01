@@ -136,16 +136,16 @@ public:
 	}
 
 	static string encryptText(string text, short encryptionKey) {
-		for (int i = 0; i < text.length(); i++) {
+		/*for (int i = 0; i < text.length(); i++) {
 			text[i] = char(int(text[i]) + encryptionKey);
-		}
+		}*/
 		return text;
 	}
 
 	static string decryptedText(string text, short decryptionKey) {
-		for (int i = 0; i < text.length(); i++) {
+		/*for (int i = 0; i < text.length(); i++) {
 			text[i] = char(int(text[i]) - decryptionKey);
-		}
+		}*/
 		return text;
 	}
 

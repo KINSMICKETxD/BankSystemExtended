@@ -24,6 +24,7 @@
     <ProjectGuid>{0f651425-8d9d-4df2-9f64-bc94590419f4}</ProjectGuid>
     <RootNamespace>DateLibrary</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>BankManagementSystem</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

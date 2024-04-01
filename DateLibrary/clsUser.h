@@ -275,7 +275,7 @@ public:
             while (getline(MyFile, Line))
             {
                 clsUser User = _ConvertLinetoUserObject(Line);
-                if (User.userName == UserName && User.Password == clsUtil::encryptText(Password,3))
+                if (User.userName == UserName && User.Password == clsUtil::encryptText(Password,0))
                 {
                     MyFile.close();
                     return User;
